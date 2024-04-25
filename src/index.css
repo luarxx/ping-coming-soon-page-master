@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+    font-family: "Libre Franklin", sans-serif;
+}
+
+:root {
+    /* ##Colors    */
+    /* ### Primary */
+
+--Blue: hsl(223, 87%, 63%);
+
+/* ### Secondary */
+
+--Pale-Blue: hsl(223, 100%, 88%);
+--Light-Red: hsl(354, 100%, 66%);
+
+/* ### Neutral */
+
+--Gray: hsl(0, 0%, 59%);
+--Very-Dark-Blue: hsl(209, 33%, 12%);
+}
+
+button {
+    cursor: pointer;
+    background-color: var(--Blue);
+}
+
+input {
+    color: var(--Very-Dark-Blue);
+    border-color: var(--Gray);
+}
+
+h2 {
+    color: var(--Gray);
+}
